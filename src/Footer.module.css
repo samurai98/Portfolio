@@ -1,0 +1,29 @@
+.footer {
+  height: 300px;
+  background-color: #60b5bb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social {
+  width: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}

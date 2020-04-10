@@ -1,0 +1,30 @@
+.contacts {
+  height: 100vh;
+  background-color: #b8000c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  min-height: 200px;
+  min-width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  width: 100%;
+}

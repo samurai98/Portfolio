@@ -1,0 +1,23 @@
+.projects {
+  height: 100vh;
+  background-color: #0020b8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listMyProjects {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

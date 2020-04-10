@@ -1,0 +1,21 @@
+.container {
+  width: 20%;
+  min-height: 200px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  background-color: azure;
+}
+
+.description {
+  height: 40%;
+  border: 1px solid;
+  text-align:  center;
+}
