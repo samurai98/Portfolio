@@ -19,3 +19,11 @@ img {
   border: 1px solid;
   text-align:  center;
 }
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

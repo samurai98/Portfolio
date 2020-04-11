@@ -20,3 +20,14 @@ button {
   width: 20%;
   height: 30px;
 }
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    align-items: center;
+  }
+}
