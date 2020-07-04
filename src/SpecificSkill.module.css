@@ -1,28 +1,37 @@
-.container {
-  width: 20%;
-  min-height: 200px;
-  border: 1px solid;
+.skill {
+  width: 120px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-img {
-  width: 60px;
-  height: 60px;
-  background-color: azure;
+.icon img {
+  background: none;
+  transform: rotate(-45deg);
+  width: 85%;
+  height: 85%;
 }
 
-.description {
-  height: 40%;
-  border: 1px solid;
-  text-align:  center;
+.skillTitle {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Regular', sans-serif;
 }
 
-@media screen and (max-width: 575px) {
-  .container {
-    width: 80%;
+@media screen and (max-width: 691px) {
+  .skill {
     margin-top: 15px;
     margin-bottom: 15px;
   }

@@ -1,16 +1,17 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import Title from "./Title";
 
 function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <h2>Владислав Лешков</h2>
+                <Title title={'Владислав Лешков'} />
                 <div className={styles.social}>
-                    <img src="" alt="socialLogo"/>
-                    <img src="" alt="socialLogo"/>
-                    <img src="" alt="socialLogo"/>
-                    <img src="" alt="socialLogo"/>
+                    <img src="" alt="logo"/>
+                    <img src="" alt="logo"/>
+                    <img src="" alt="logo"/>
+                    <img src="" alt="logo"/>
                 </div>
                 <p>© 2020 Все права защищены</p>
             </div>

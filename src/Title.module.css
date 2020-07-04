@@ -1,0 +1,25 @@
+.headerTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat-Regular', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+}
+
+.line {
+  height: 1px;
+  width: 55px;
+  margin: 20px 0;
+  background-color: #4e93e6;
+}
+
+@media screen and (max-width: 575px) {
+  .headerTitle {
+    font-size: 20px;
+  }
+
+}

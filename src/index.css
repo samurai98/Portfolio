@@ -1,13 +1,35 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./fonts/Montserrat-Regular/Montserrat-Regular.eot');
+    src: local('☺'), url('./fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+    url('./fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
+    url('./fonts/Montserrat-Regular/Montserrat-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./fonts/Noto_Sans/NotoSans-Regular.ttf');
+}
+
+
+
+
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
