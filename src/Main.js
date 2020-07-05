@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css';
+import myPhoto from './img/myPhoto.jpg'
 
 function Main() {
     return (
@@ -11,7 +12,7 @@ function Main() {
                     <h1>front-end разработчик</h1>
                 </div>
                 <div className={styles.photo}>
-                    <img src="https://sun9-19.userapi.com/c857624/v857624028/1fcae9/kDNUxstuGc0.jpg"
+                    <img src={myPhoto}
                          alt="myPhoto"/>
                 </div>
             </div>
