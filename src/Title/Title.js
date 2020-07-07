@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Title.module.css';
 
 function Skills(props) {
-    return <div className={styles.headerTitle}>
+    return <div className={styles.titleBlock}>
         <div>{props.title}</div>
         <div className={styles.line}> </div>
     </div>

@@ -1,5 +1,4 @@
 .slogan {
-  height: 250px;
   background-color: #252527;
   display: flex;
   justify-content: space-around;
@@ -7,8 +6,8 @@
 }
 
 .container {
+  margin: 50px 0;
   width: 80%;
-  height: 80%;
   border: 1px solid;
   display: flex;
   justify-content: space-around;
@@ -16,18 +15,22 @@
   align-items: center;
 }
 
-button {
-  width: 20%;
-  height: 30px;
-}
+.btnShow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
 
-h2 {
-  text-align: center;
-}
+  width: 150px;
+  height: 50px;
+  margin: 40px 0 15px;
 
-@media screen and (max-width: 575px) {
-  .container {
-    width: 100%;
-    align-items: center;
-  }
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }

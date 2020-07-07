@@ -7,7 +7,7 @@ function Slogan() {
         <div className={styles.slogan}>
             <div className={styles.container}>
                 <Title title={'Рассматриваю любые варианты работы'} />
-                <button>Нанять меня</button>
+                <button className={styles.btnShow}>Нанять меня</button>
             </div>
         </div>
     );
