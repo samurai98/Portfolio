@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78b6224808553bf726340df8f55fe102",
+    "revision": "c86cabf1d1e13190accbfc27dbc10999",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "1325ab99480d2a00d9b6",
-    "url": "/Portfolio/static/css/main.31d9dd0f.chunk.css"
+    "revision": "c2ece3046b6f0549606f",
+    "url": "/Portfolio/static/css/main.8af9877e.chunk.css"
   },
   {
-    "revision": "d4c09c5ee126680c962c",
-    "url": "/Portfolio/static/js/2.15c834cc.chunk.js"
+    "revision": "b372dabddcee3d82dc42",
+    "url": "/Portfolio/static/js/2.2e404f64.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Portfolio/static/js/2.15c834cc.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.2e404f64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1325ab99480d2a00d9b6",
-    "url": "/Portfolio/static/js/main.c8bef843.chunk.js"
+    "revision": "c2ece3046b6f0549606f",
+    "url": "/Portfolio/static/js/main.59a3abd3.chunk.js"
   },
   {
     "revision": "107ce3c625a9fb1de279",
@@ -56,11 +56,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/js.3f047bc1.svg"
   },
   {
+    "revision": "0fa6492546169322640a9298fee5d3a8",
+    "url": "/Portfolio/static/media/linkedin.0fa64925.svg"
+  },
+  {
+    "revision": "97affe1cf95f764b17bfcfc4a244b794",
+    "url": "/Portfolio/static/media/mail.97affe1c.svg"
+  },
+  {
+    "revision": "367b062e47ff466f0e30d3d6f5763dfc",
+    "url": "/Portfolio/static/media/myPhoto.367b062e.jpg"
+  },
+  {
+    "revision": "95c8625d1726ab3bba7531bb6792e75c",
+    "url": "/Portfolio/static/media/phone.95c8625d.svg"
+  },
+  {
     "revision": "d62cf86316a77d055ded3fe6c7cb11a3",
     "url": "/Portfolio/static/media/react.d62cf863.svg"
   },
   {
+    "revision": "979d1c87503ae41cdf5034a766f84b0f",
+    "url": "/Portfolio/static/media/telegram.979d1c87.svg"
+  },
+  {
     "revision": "9cea5b2f366bea76964e0da95f093093",
     "url": "/Portfolio/static/media/ts.9cea5b2f.svg"
+  },
+  {
+    "revision": "3aacd88d4272cbc51cd61bcd325c8597",
+    "url": "/Portfolio/static/media/tutby.3aacd88d.svg"
   }
 ]);
