@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import SpecificProject from './SpecificProject';
-import Title from "../Title";
+import Title from "../Title/Title";
 
-import Counter from '../img/projects/counter.PNG'
+import Counter from '../assets/img/projects/counter.PNG'
 
 function Projects() {
     return (

@@ -1,5 +1,4 @@
 .skills {
-  height: 80vh;
   background-color: #252527;
   display: flex;
   justify-content: center;
@@ -7,8 +6,8 @@
 }
 
 .container {
+  margin: 50px 0;
   width: 80%;
-  height: 80%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -18,6 +17,7 @@
 
 .listMySkills {
   width: 100%;
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -29,5 +29,8 @@
   }
   .container {
     margin: 30px 0;
+  }
+  .listMySkills {
+    margin-top: 40px;
   }
 }

@@ -1,38 +1,37 @@
 .skill {
-  width: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 100px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .icon {
-  height: 80px;
-  width: 80px;
-  background: rgba(255, 255, 255, 0.1);
-  transform: rotate(45deg);
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 80px;
+    width: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon img {
-  background: none;
-  transform: rotate(-45deg);
-  width: 85%;
-  height: 85%;
+    background: none;
+    transform: rotate(-45deg);
+    width: 85%;
+    height: 85%;
 }
 
 .skillTitle {
-  color: white;
-  text-transform: uppercase;
-  font-family: 'Montserrat-Regular', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 @media screen and (max-width: 691px) {
-  .skill {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
+    .skill {
+        margin-top: 15px;
+    }
 }

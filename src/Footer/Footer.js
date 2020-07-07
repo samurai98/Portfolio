@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import Title from './Title';
+import Title from '../Title/Title';
 
-import linkedin from './img/contacts/linkedin.svg';
-import tutby from './img/contacts/tutby.svg';
-import email from './img/contacts/mail.svg';
-import phone from './img/contacts/phone.svg';
-import telegram from './img/contacts/telegram.svg';
+import linkedin from '../assets/img/contacts/linkedin.svg';
+import tutby from '../assets/img/contacts/tutby.svg';
+import email from '../assets/img/contacts/mail.svg';
+import phone from '../assets/img/contacts/phone.svg';
+import telegram from '../assets/img/contacts/telegram.svg';
 
 function Footer() {
     return (

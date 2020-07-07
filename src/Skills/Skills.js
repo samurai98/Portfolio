@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import SpecificSkill from './SpecificSkill';
-import Title from "../Title";
+import Title from "../Title/Title";
 
-import html from '../img/skills/html.svg';
-import js from '../img/skills/js.svg';
-import react from '../img/skills/react.svg';
-import ts from '../img/skills/ts.svg';
+import html from '../assets/img/skills/html.svg';
+import js from '../assets/img/skills/js.svg';
+import react from '../assets/img/skills/react.svg';
+import ts from '../assets/img/skills/ts.svg';
 
 function Skills() {
     return (

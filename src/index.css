@@ -2,17 +2,17 @@
     font-family: 'Montserrat-Regular';
     font-weight: normal;
     font-style: normal;
-    src: url('./fonts/Montserrat-Regular/Montserrat-Regular.eot');
-    src: local('☺'), url('./fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
-    url('./fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
-    url('./fonts/Montserrat-Regular/Montserrat-Regular.svg') format('svg');
+    src: url('assets/fonts/Montserrat-Regular/Montserrat-Regular.eot');
+    src: local('☺'), url('assets/fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+    url('assets/fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
+    url('assets/fonts/Montserrat-Regular/Montserrat-Regular.svg') format('svg');
 }
 
 @font-face {
     font-family: 'Noto Sans';
     font-weight: normal;
     font-style: normal;
-    src: url('./fonts/Noto_Sans/NotoSans-Regular.ttf');
+    src: url('assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css';
-import myPhoto from './img/myPhoto.jpg'
+import myPhoto from '../assets/img/myPhoto.jpg'
 
 function Main() {
     return (

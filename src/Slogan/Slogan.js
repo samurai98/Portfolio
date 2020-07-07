@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Slogan.module.css';
-import Title from "./Title";
+import Title from '../Title/Title';
 
 function Slogan() {
     return (
