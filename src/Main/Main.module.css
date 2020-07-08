@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    padding: 50px 0;
-    background-color: #1f1f20;
+    min-height: 90vh;
+    /*background-color: #1f1f20;*/
+    padding-top: 70px;
 }
 
 .container {
@@ -12,7 +12,9 @@
     align-items: center;
     justify-content: space-around;
     width: 80%;
-    height: 80%;
+    margin: 80px 0;
+
+    border: 1px solid white;
 }
 
 .greeting {
@@ -55,6 +57,12 @@ h1 {
 .photo {
     position: relative;
     z-index: 1;
+    transition: 500ms;
+}
+
+.photo:hover {
+    transform: scale(1.1, 1.1);
+
 }
 
 .photo img {
@@ -76,14 +84,17 @@ h1 {
 @media screen and (max-width: 1040px) {
     .greeting span:nth-child(2) span:before {
         right: 0;
-
         width: 120%;
     }
 }
 
 @media screen and (max-width: 760px) {
     .main {
-        height: 70vh;
+        min-height: 80vh;
+    }
+
+    .container {
+        margin: 40px 0;
     }
 
     .photo img {
@@ -127,6 +138,25 @@ h1 {
 
     .greeting span:nth-child(2) span:before {
         height: 11px;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .photo img {
+        width: 150px;
+    }
+
+    .greeting span:nth-child(1) {
+        font-size: 1em;
+    }
+
+    .greeting span:nth-child(2) span {
+        font-size: 1.1em;
+    }
+
+    .greeting span:nth-child(2) span:before {
+        height: 12px;
+        width: 130%;
     }
 }
 

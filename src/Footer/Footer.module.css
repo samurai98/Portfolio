@@ -4,6 +4,7 @@
     justify-content: space-around;
 
     background-color: #252527;
+    position: relative;
 }
 
 .container {
@@ -30,6 +31,7 @@
 
     border: 1px solid #4a4a4a;
     border-radius: 50%;
+    transition: 0.5s;
 }
 
 .blockLink:hover {

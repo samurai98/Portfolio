@@ -7,12 +7,9 @@ import Counter from '../assets/img/projects/counter.PNG'
 
 function Projects() {
     return (
-        <div className={styles.projects}>
+        <div id={'projects'} className={styles.projects}>
             <div className={styles.container}>
-
-                <Title title={'Мои работы'} />
-
-
+                <Title title={'Мои работы'}/>
                 <div className={styles.listMyProjects}>
                     <SpecificProject title={'Social Network'}
                                      img={Counter}
