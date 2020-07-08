@@ -1,5 +1,4 @@
 .projects {
-  /*background-color: #1f1f20;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -8,7 +7,6 @@
 .container {
   margin: 50px 0;
   width: 80%;
-  border: 1px solid;
 }
 
 .listMyProjects {

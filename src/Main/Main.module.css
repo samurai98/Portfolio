@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     min-height: 90vh;
-    /*background-color: #1f1f20;*/
     padding-top: 70px;
 }
 
@@ -13,8 +12,6 @@
     justify-content: space-around;
     width: 80%;
     margin: 80px 0;
-
-    border: 1px solid white;
 }
 
 .greeting {

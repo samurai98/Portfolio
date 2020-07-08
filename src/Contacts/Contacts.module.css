@@ -1,8 +1,6 @@
 .contacts {
     display: flex;
     justify-content: center;
-
-    /*background-color: #1f1f20;*/
 }
 
 .container {
@@ -12,8 +10,6 @@
 
     width: 80%;
     margin: 50px 0;
-
-    border: 1px solid;
 }
 
 .formWrapper {
