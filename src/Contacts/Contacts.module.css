@@ -80,7 +80,7 @@
     z-index: 1;
 }
 
-.btnSubmit:after {
+.btnSubmit:before {
     content: '';
     position: absolute;
     width: 50%;
@@ -91,7 +91,7 @@
     transition: 0.5s;
 }
 
-.btnSubmit:hover::after {
+.btnSubmit:hover::before {
     width: 100%;
     height: 65%;
 }
