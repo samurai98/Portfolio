@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     color: white;
+    margin-right: 20px;
 }
 
 .greeting span:nth-child(1) {
@@ -78,10 +79,10 @@ h1 {
     border: 4px solid #4e93e6;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1063px) {
     .greeting span:nth-child(2) span:before {
         right: 0;
-        width: 120%;
+        width: 170%;
     }
 }
 
@@ -109,6 +110,13 @@ h1 {
 
     .greeting span:nth-child(2) span:before {
         height: 13px;
+        width: 192%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .greeting span:nth-child(2) span:before {
+        width: 170%;
     }
 }
 
@@ -119,6 +127,10 @@ h1 {
 
     .greeting span:nth-child(2) span {
         font-size: 1.2em;
+    }
+
+    .greeting span:nth-child(2) span:before {
+        width: 192%;
     }
 }
 
@@ -135,6 +147,13 @@ h1 {
 
     .greeting span:nth-child(2) span:before {
         height: 11px;
+        width: 214%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .greeting span:nth-child(2) span:before {
+        width: 190%;
     }
 }
 
@@ -153,7 +172,7 @@ h1 {
 
     .greeting span:nth-child(2) span:before {
         height: 12px;
-        width: 130%;
+        width: 195%;
     }
 }
 

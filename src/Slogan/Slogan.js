@@ -7,9 +7,9 @@ function Slogan() {
     return (
         <div className={styles.slogan}>
             <div className={styles.container}>
-                <Title title={'Рассматриваю любые варианты работы'}/>
+                <Title title={'More about me'}/>
                 <Fade left cascade>
-                    <button className={styles.btnShow}>Нанять меня</button>
+                    <button className={styles.btnShow}>Show</button>
                 </Fade>
             </div>
         </div>

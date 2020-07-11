@@ -14,7 +14,7 @@ function Skills() {
         <div id={'skills'} className={styles.skills}>
             <Fade bottom cascade>
                 <div className={styles.container}>
-                    <Title title={'Мои скиллы'}/>
+                    <Title title={'My skills'}/>
                     <div className={styles.listMySkills}>
                         <SpecificSkill skill={'HTML&CSS'} img={html}/>
                         <SpecificSkill skill={'JAVASCRIPT'} img={js}/>

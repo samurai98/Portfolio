@@ -13,36 +13,36 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <Title title={'Владислав Лешков'}/>
+                <Title title={'Vladislav Leshkov'}/>
                 <Fade big cascade>
                     <div className={styles.social}>
                         <div className={styles.blockLink}>
-                            <a href="" target="_blank">
+                            <a href="https://www.linkedin.com/" target="_blank">
                                 <img src={linkedin} alt='logo'/>
                             </a>
                         </div>
                         <div className={styles.blockLink}>
-                            <a href="" target="_blank">
+                            <a href="https://jobs.tut.by/resume/9bd6a49aff0383c2180039ed1f6e70376f5959" target="_blank">
                                 <img src={tutby} alt='logo'/>
                             </a>
                         </div>
                         <div className={styles.blockLink}>
-                            <a href="" target="_blank">
+                            <a href="mailto:leshkov.1998@mail.ru" target="_blank">
                                 <img src={email} alt='logo'/>
                             </a>
                         </div>
                         <div className={styles.blockLink}>
-                            <a href="" target="_blank">
+                            <a href="tel:+375298755838" target="_blank">
                                 <img src={phone} alt='logo'/>
                             </a>
                         </div>
                         <div className={styles.blockLink}>
-                            <a href="" target="_blank">
+                            <a href="https://t.me/l_vladislav_l" target="_blank">
                                 <img src={telegram} alt='logo'/>
                             </a>
                         </div>
                     </div>
-                    <span className={styles.copyright}>© 2020 Все права защищены</span>
+                    <span className={styles.copyright}>© 2020 All Rights Reserved.</span>
                 </Fade>
             </div>
         </div>

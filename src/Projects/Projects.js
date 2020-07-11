@@ -9,7 +9,7 @@ function Projects() {
     return (
         <div id={'projects'} className={styles.projects}>
             <div className={styles.container}>
-                <Title title={'Мои работы'}/>
+                <Title title={'My Works'}/>
                 <div className={styles.listMyProjects}>
                     <SpecificProject title={'Social Network'}
                                      img={Counter}
