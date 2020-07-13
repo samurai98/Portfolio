@@ -20,7 +20,7 @@ function Contacts() {
 
 
     return (
-        <div id={'contacts'} className={styles.contacts}>
+        <div id={'write'} className={styles.contacts}>
             <div className={styles.container}>
                 <Title title={'Contact me'}/>
                 <Fade right cascade>

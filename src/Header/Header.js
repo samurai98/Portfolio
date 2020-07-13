@@ -2,14 +2,34 @@ import React from 'react';
 import NavMenu from '../NavMenu/NavMenu';
 import styles from './Header.module.css';
 
-function Header() {
-    return (
-        <div className={styles.header}>
-            <div className={styles.container}>
-                <NavMenu/>
+class Header extends React.Component {
+
+    state = {
+        menu: false
+    };
+
+    burgerClick = () => {
+        this.state.menu
+            ? this.setState({menu: false})
+            : this.setState({menu: true});
+    };
+
+    render() {
+        let menuStyle = this.state.menu
+            ? `${styles.menu_icon} ${styles.menu_icon_active}`
+            : `${styles.menu_icon}`;
+        return (
+            <div onClick={this.burgerClick} className={styles.menu_icon_wrapper}>
+                <div className={menuStyle}>
+                    <div className={styles.header}>
+                        <div className={styles.container}>
+                            <NavMenu/>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default Header;

@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 function Slogan() {
     return (
-        <div className={styles.slogan}>
+        <div id={'about'} className={styles.slogan}>
             <div className={styles.container}>
                 <Title title={'More about me'}/>
                 <Fade left cascade>

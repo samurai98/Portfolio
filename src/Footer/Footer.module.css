@@ -32,6 +32,7 @@
     border: 1px solid #4a4a4a;
     border-radius: 50%;
     transition: 0.5s;
+    position: relative;
 }
 
 .blockLink:hover {
@@ -51,11 +52,23 @@
     width: 60%;
 }
 
+.hint {
+    visibility: hidden;
+    position: absolute;
+    bottom: 102%;
+    right: -50%;
+    padding: 8px 8px;
+    background: #444;
+    color: #fff;
+}
+
+.blockLink:hover .hint {
+    visibility: visible;
+}
+
 .copyright {
     font-size: 15px;
-
     margin-top: 40px;
-
     opacity: .6;
     color: white;
 }

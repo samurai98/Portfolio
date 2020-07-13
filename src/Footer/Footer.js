@@ -11,7 +11,7 @@ import telegram from '../assets/img/contacts/telegram.svg';
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <div id={'contacts'} className={styles.footer}>
             <div className={styles.container}>
                 <Title title={'Vladislav Leshkov'}/>
                 <Fade big cascade>
@@ -30,16 +30,19 @@ function Footer() {
                             <a href="mailto:leshkov.1998@mail.ru" target="_blank">
                                 <img src={email} alt='logo'/>
                             </a>
+                            <div className={styles.hint}>leshkov.1998@mail.ru</div>
                         </div>
                         <div className={styles.blockLink}>
                             <a href="tel:+375298755838" target="_blank">
                                 <img src={phone} alt='logo'/>
                             </a>
+                            <div className={styles.hint}>+375298755838</div>
                         </div>
                         <div className={styles.blockLink}>
                             <a href="https://t.me/l_vladislav_l" target="_blank">
                                 <img src={telegram} alt='logo'/>
                             </a>
+                            <div className={styles.hint}>@l_vladislav_l</div>
                         </div>
                     </div>
                     <span className={styles.copyright}>© 2020 All Rights Reserved.</span>
