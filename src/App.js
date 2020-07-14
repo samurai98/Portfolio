@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Header/Header';
+import Menu from './Menu/Menu';
 import Main from './Main/Main';
 import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
-import Slogan from './Slogan/Slogan';
-import Contacts from './Contacts/Contacts';
+import AboutMe from './AboutMe/AboutMe';
+import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import './App.css';
 import Particles from 'react-particles-js';
@@ -27,12 +27,12 @@ function App() {
             <div className="portfolio">
                 <Particles className={'particles'}
                            params={particlesOpt}/>
-                <Header/>
+                <Menu/>
                 <Main/>
                 <Skills/>
                 <Projects/>
-                <Slogan/>
-                <Contacts/>
+                <AboutMe/>
+                <Contact/>
                 <Footer/>
             </div>
         </div>

@@ -55,8 +55,7 @@
 .hint {
     visibility: hidden;
     position: absolute;
-    bottom: 102%;
-    right: -50%;
+    transform: translate(-25%, -265%);
     padding: 8px 8px;
     background: #444;
     color: #fff;

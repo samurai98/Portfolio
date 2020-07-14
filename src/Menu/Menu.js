@@ -1,8 +1,8 @@
 import React from 'react';
-import NavMenu from '../NavMenu/NavMenu';
-import styles from './Header.module.css';
+import NavMenu from './NavMenu';
+import styles from './Menu.module.css';
 
-class Header extends React.Component {
+class Menu extends React.Component {
 
     state = {
         menu: false
@@ -32,4 +32,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default Menu;

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
-import {Link, animateScroll as scroll} from 'react-scroll';
-import Fade from 'react-reveal/Fade';
+import {Link} from 'react-scroll';
 
 function NavMenu() {
 

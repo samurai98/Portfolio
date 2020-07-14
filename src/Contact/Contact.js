@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Contacts.module.css';
+import styles from './Contact.module.css';
 import Title from '../Title/Title';
 import Fade from 'react-reveal/Fade';
 import * as axios from 'axios';
 
-function Contacts() {
+function Contact() {
 
     let sendMessClick = (e) => {
         e.preventDefault(); // TODO ПОПРОБОВАТЬ БЕЗ НЕЁ КОГДА БУДЕТ СТОР
@@ -39,4 +39,4 @@ function Contacts() {
     );
 }
 
-export default Contacts;
+export default Contact;
