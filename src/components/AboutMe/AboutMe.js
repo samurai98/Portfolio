@@ -16,7 +16,6 @@ class AboutMe extends React.Component {
 
     render() {
         let buttonName = this.state.isHidden ? 'Show' : 'Hide';
-        //let hideInfo = this.state.isHidden ? styles.hideInfo : '';
         let hideInfo = this.state.isHidden
             ? `${styles.moreInfo} ${styles.hideInfo}`
             : `${styles.moreInfo}`;
@@ -42,7 +41,8 @@ class AboutMe extends React.Component {
                             </p>
                             <p>If we talk about my professional qualities, I have extensive technical knowledge and
                                 attention to detail for <mark>bug-free software.</mark> A perfectionist by nature with
-                                methodical testing ability and <mark>good communication skills.</mark> People who know me well, say that I am
+                                methodical testing ability and <mark>good communication skills.</mark> People who know
+                                me well, say that I am
                                 a <mark>reliable</mark> person.
                             </p>
                             <p>If you want to contact me, use the form below, or the links in the site's footer.</p>

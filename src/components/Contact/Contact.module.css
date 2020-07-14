@@ -96,6 +96,21 @@
     height: 65%;
 }
 
+.btnSubmit:disabled {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btnSubmit:disabled:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    background: rgba(78, 147, 230, 0.2);
+    bottom: 10px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 770px) {
     .formWrapper {
         width: 70%;

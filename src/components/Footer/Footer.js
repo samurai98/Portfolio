@@ -3,11 +3,11 @@ import styles from './Footer.module.css';
 import Title from '../Title/Title';
 import Fade from 'react-reveal/Fade';
 
-import linkedin from '../assets/img/contacts/linkedin.svg';
-import tutby from '../assets/img/contacts/tutby.svg';
-import email from '../assets/img/contacts/mail.svg';
-import phone from '../assets/img/contacts/phone.svg';
-import telegram from '../assets/img/contacts/telegram.svg';
+import linkedin from '../../assets/img/contacts/linkedin.svg';
+import tutby from '../../assets/img/contacts/tutby.svg';
+import email from '../../assets/img/contacts/mail.svg';
+import phone from '../../assets/img/contacts/phone.svg';
+import telegram from '../../assets/img/contacts/telegram.svg';
 
 function Footer() {
     return (

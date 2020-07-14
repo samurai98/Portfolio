@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Main.module.css';
-import myPhoto from '../assets/img/myPhoto.jpg'
 
-function Main() {
+
+function Main(props) {
     return (
         <div id={'main'} className={styles.main}>
             <div className={styles.container}>
@@ -12,7 +12,7 @@ function Main() {
                     <h1>front-end developer</h1>
                 </div>
                 <div className={styles.photo}>
-                    <img src={myPhoto}
+                    <img src={props.photo}
                          alt="myPhoto"/>
                 </div>
             </div>
