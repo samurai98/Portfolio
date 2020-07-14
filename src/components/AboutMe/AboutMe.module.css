@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     background-color: #252527;
 }
 
@@ -17,7 +16,6 @@
 
 .moreInfo mark {
     font-weight: bold;
-
     color: #000;
     background-color: rgba(78, 147, 230, 1);
 }
@@ -63,7 +61,6 @@
     bottom: 10px;
     width: 50%;
     height: 10px;
-
     content: '';
     transition: .5s;
     background: #4e93e6;

@@ -1,7 +1,6 @@
 import React from 'react';
 import NavMenu from './NavMenu';
 import styles from './Menu.module.css';
-import {connect} from "react-redux";
 
 class Menu extends React.Component {
 

@@ -6,6 +6,7 @@ import html from '../assets/img/skills/html.svg';
 import js from '../assets/img/skills/js.svg';
 import react from '../assets/img/skills/react.svg';
 import ts from '../assets/img/skills/ts.svg';
+import redux from '../assets/img/skills/redux.svg';
 
 import counter from '../assets/img/projects/counter.PNG';
 
@@ -21,7 +22,8 @@ const initialState = {
             {id: 1, title: 'HTML&CSS', logo: html},
             {id: 2, title: 'JAVASCRIPT', logo: js},
             {id: 3, title: 'REACT', logo: react},
-            {id: 4, title: 'TYPESCRIPT', logo: ts}
+            {id: 4, title: 'TYPESCRIPT', logo: ts},
+            {id: 5, title: 'REDUX', logo: redux},
         ],
         projects: [
             {
@@ -67,7 +69,6 @@ const initialState = {
 };
 
 export const reducer = (state = initialState, action) => {
-    debugger
     switch (action.type) {
         case UPDATE_NAME_FORM:
             return {
@@ -132,7 +133,6 @@ export const disabledButtonForm = (isDisabled) => ({type: DISABLED_BUTTON_FORM, 
 // Thunk
 
 export const sendEmail = (name, email, message) => (dispatch) => {
-    debugger
     axios.post('https://smtp-nodejs-server-portfolio.herokuapp.com/sendMessage', {
         name: name,
         contacts: email,

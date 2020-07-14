@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import SpecificProject from './SpecificProject';
-import Title from "../Title/Title";
-import {connect} from "react-redux";
+import Title from '../Title/Title';
+import {connect} from 'react-redux';
 
 class Projects extends React.Component {
 

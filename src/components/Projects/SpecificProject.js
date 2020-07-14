@@ -12,7 +12,7 @@ function SpecificProject(props) {
             <div className={styles.container}>
                 <div className={styles.projectImg}>
                     <div className={styles.backgroundImg} style={backgroundImg}></div>
-                    <a className={styles.btnLink} href={props.link} target="_blank">Tap to view</a>
+                    <a className={styles.btnLink} href={props.link} target='_blank'>Tap to view</a>
                 </div>
 
                 <span className={styles.title}>{props.title}</span>

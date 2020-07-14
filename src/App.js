@@ -14,8 +14,8 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
-                <div className="portfolio">
+            <div className='App'>
+                <div className='portfolio'>
                     <Particles className={'particles'}
                                params={this.props.portfolioData.particlesSettings}/>
                     <Menu/>

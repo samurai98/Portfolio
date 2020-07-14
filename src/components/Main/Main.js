@@ -13,7 +13,7 @@ function Main(props) {
                 </div>
                 <div className={styles.photo}>
                     <img src={props.photo}
-                         alt="myPhoto"/>
+                         alt='myPhoto'/>
                 </div>
             </div>
         </div>

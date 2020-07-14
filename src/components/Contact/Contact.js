@@ -9,11 +9,10 @@ import {disabledButtonForm, sendEmail, updateEmailForm, updateMessageForm, updat
 class Contact extends React.Component {
 
     sendMessageClick = (e) => {
-        if(this.props.contact.name && this.props.contact.email && this.props.contact.message) {
+        if (this.props.contact.name && this.props.contact.email && this.props.contact.message) {
             this.props.disabledButtonForm(true);
             this.props.sendEmail(this.props.contact.name, this.props.contact.email, this.props.contact.message);
-        }
-        else {
+        } else {
             e.preventDefault();
             alert('Please, fill in all fields of the form!');
         }
@@ -27,7 +26,7 @@ class Contact extends React.Component {
                 <div className={styles.container}>
                     <Title title={'Contact me'}/>
                     <Fade right cascade>
-                        <form className={styles.formWrapper} action="">
+                        <form className={styles.formWrapper} action=''>
                             <input className={styles.formArea}
                                    placeholder='Your name'
                                    type='text'

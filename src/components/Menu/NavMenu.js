@@ -6,46 +6,43 @@ function NavMenu() {
 
     return (
         <div className={styles.navMenu}>
-            <a href="#" className={styles.link}>
-                <Link to='main'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>Home</Link>
-            </a>
-            <a href="#" className={styles.link}>
-                <Link to='skills'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>Skills</Link>
-            </a>
 
-            <a href="#" className={styles.link}>
-                <Link to='projects'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>Projects</Link>
-            </a>
+            <Link className={styles.link}
+                  to='main'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>Home</Link>
 
-            <a href="#" className={styles.link}>
-                <Link to='about'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>About me</Link>
-            </a>
+            <Link className={styles.link}
+                  to='skills'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>Skills</Link>
 
-            <a href="#" className={styles.link}>
-                <Link to='write'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>Write me</Link>
-            </a>
+            <Link className={styles.link}
+                  to='projects'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>Projects</Link>
 
-            <a href="#" className={styles.link}>
-                <Link to='contacts'
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}>Contacts</Link>
-            </a>
+            <Link className={styles.link}
+                  to='about'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>About me</Link>
+
+            <Link className={styles.link}
+                  to='write'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>Write me</Link>
+
+            <Link className={styles.link}
+                  to='contacts'
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}>Contacts</Link>
+
         </div>
     );
 }

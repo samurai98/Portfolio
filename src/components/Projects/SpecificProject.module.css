@@ -7,8 +7,9 @@
 }
 
 .projectImg {
-    cursor: pointer;
     position: relative;
+
+    cursor: pointer;
 }
 
 .backgroundImg {
@@ -24,7 +25,6 @@
     right: 0;
     left: 0;
     height: 300px;
-
     content: '';
     transition: 1s;
     opacity: 0;

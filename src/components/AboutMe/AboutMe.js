@@ -33,15 +33,15 @@ class AboutMe extends React.Component {
                             <p>I am a student of the <mark>Belarusian state University of Informatics and
                                 Radioelectronics</mark>,
                                 faculty of engineering and Economics, in my fifth year.
-                                I also studied at <mark>RS School and IT-incubator.</mark>
+                                I also studied at <mark>RS School and IT-incubator</mark>.
                             </p>
                             <p>I have experience as a sales Manager and content Manager. I am <mark>looking for a
                                 job</mark> at the
                                 moment.
                             </p>
                             <p>If we talk about my professional qualities, I have extensive technical knowledge and
-                                attention to detail for <mark>bug-free software.</mark> A perfectionist by nature with
-                                methodical testing ability and <mark>good communication skills.</mark> People who know
+                                attention to detail for <mark>bug-free software</mark>. A perfectionist by nature with
+                                methodical testing ability and <mark>good communication skills</mark>. People who know
                                 me well, say that I am
                                 a <mark>reliable</mark> person.
                             </p>

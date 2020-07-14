@@ -3,7 +3,6 @@
     font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
-
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,9 +19,9 @@
 }
 
 @media screen and (max-width: 810px) {
-  .titleBlock {
-    font-size: 30px;
-  }
+    .titleBlock {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 575px) {
