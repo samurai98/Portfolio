@@ -17,7 +17,7 @@ function Footer() {
                 <Fade big cascade>
                     <div className={styles.social}>
                         <div className={styles.blockLink}>
-                            <a href='https://www.linkedin.com/' target='_blank'>
+                            <a href='linkedin.com/in/владислав-лешков-bb42821b3' target='_blank'>
                                 <img src={linkedin} alt='logo'/>
                             </a>
                         </div>
