@@ -8,7 +8,6 @@
 
 .projectImg {
     position: relative;
-
     cursor: pointer;
 }
 
@@ -80,6 +79,10 @@
 .description span {
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.description span a {
+    color: white;
 }
 
 @media screen and (max-width: 1085px) {

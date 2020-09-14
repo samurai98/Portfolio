@@ -13,7 +13,8 @@ class Projects extends React.Component {
                                                                         title={el.title}
                                                                         img={el.img}
                                                                         description={el.description}
-                                                                        link={el.link}/>);
+                                                                        link={el.link}
+                                                                        code={el.code}/>);
 
         return (
             <div id={'projects'} className={styles.projects}>

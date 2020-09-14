@@ -9,6 +9,8 @@ import ts from '../assets/img/skills/ts.svg';
 import redux from '../assets/img/skills/redux.svg';
 
 import counter from '../assets/img/projects/counter.PNG';
+import todoList from '../assets/img/projects/ToDoList.PNG';
+import socialNetwork from '../assets/img/projects/SocialNetwork.PNG';
 
 export const UPDATE_NAME_FORM = 'Portfolio/src/redux/reducer/UPDATE-NAME-FORM';
 export const UPDATE_EMAIL_FORM = 'Portfolio/src/redux/reducer/UPDATE-EMAIL-FORM';
@@ -29,23 +31,26 @@ const initialState = {
             {
                 id: 1,
                 title: 'Social Network',
-                img: counter,
-                description: 'Social Network Social Network Social Network',
-                link: ''
+                img: socialNetwork,
+                description: 'Social network from React-Redux YouTube course \'The way of samurai\'.',
+                link: 'https://samurai98.github.io/SocialNetwork_reactJS/',
+                code: 'https://github.com/samurai98/SocialNetwork_reactJS'
             },
             {
                 id: 2,
                 title: 'To Do List',
-                img: counter,
-                description: 'Social Network Social Network Social Network',
-                link: ''
+                img: todoList,
+                description: 'Your personal planning Board.',
+                link: 'https://samurai98.github.io/ToDoList/',
+                code: 'https://github.com/samurai98/ToDoList'
             },
             {
                 id: 3,
                 title: 'Counter',
                 img: counter,
                 description: 'This is a simple counter on React and Redux!',
-                link: 'https://samurai98.github.io/Counter/'
+                link: 'https://samurai98.github.io/Counter/',
+                code: 'https://github.com/samurai98/Counter'
             }
         ],
         contact: {
