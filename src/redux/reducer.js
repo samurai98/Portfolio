@@ -11,6 +11,7 @@ import redux from '../assets/img/skills/redux.svg';
 import counter from '../assets/img/projects/counter.PNG';
 import todoList from '../assets/img/projects/ToDoList.PNG';
 import socialNetwork from '../assets/img/projects/SocialNetwork.PNG';
+import constructor from '../assets/img/projects/constructor.PNG';
 
 export const UPDATE_NAME_FORM = 'Portfolio/src/redux/reducer/UPDATE-NAME-FORM';
 export const UPDATE_EMAIL_FORM = 'Portfolio/src/redux/reducer/UPDATE-EMAIL-FORM';
@@ -51,6 +52,14 @@ const initialState = {
                 description: 'This is a simple counter on React and Redux!',
                 link: 'https://samurai98.github.io/Counter/',
                 code: 'https://github.com/samurai98/Counter'
+            },
+            {
+                id: 4,
+                title: 'Constructor',
+                img: constructor,
+                description: 'Sites constructor in pure JS with using Classes and OOP!',
+                link: 'https://constructor-leshk.web.app/',
+                code: 'https://github.com/samurai98/constructor'
             }
         ],
         contact: {
