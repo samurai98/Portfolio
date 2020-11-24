@@ -10,6 +10,7 @@ import redux from '../assets/img/skills/redux.svg';
 
 import counter from '../assets/img/projects/counter.PNG';
 import todoList from '../assets/img/projects/ToDoList.PNG';
+import reactTable from '../assets/img/projects/react-table.PNG';
 import socialNetwork from '../assets/img/projects/SocialNetwork.PNG';
 import constructor from '../assets/img/projects/constructor.PNG';
 
@@ -47,6 +48,14 @@ const initialState = {
             },
             {
                 id: 3,
+                title: 'React Table',
+                img: reactTable,
+                description: 'This is a table project in react-table library!',
+                link: 'https://samurai98.github.io/react-table/',
+                code: 'https://github.com/samurai98/react-table'
+            },
+            {
+                id: 4,
                 title: 'Counter',
                 img: counter,
                 description: 'This is a simple counter on React and Redux!',
@@ -54,7 +63,7 @@ const initialState = {
                 code: 'https://github.com/samurai98/Counter'
             },
             {
-                id: 4,
+                id: 5,
                 title: 'Constructor',
                 img: constructor,
                 description: 'Sites constructor in pure JS with using Classes and OOP!',
